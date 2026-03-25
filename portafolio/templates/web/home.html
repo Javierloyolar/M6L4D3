@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<section id="home">
+    <div class="hero-content">
+        <h1>Hola, Soy [Tu Nombre]</h1>
+        <p>Especialista en soluciones creativas y desarrollo digital.</p>
+        <a href="{% url 'contacto' %}" class="btn-main">Trabajemos juntos</a>
+    </div>
+</section>
+{% endblock %}
